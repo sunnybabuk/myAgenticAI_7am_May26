@@ -1,0 +1,88 @@
+https://github.com/aiwithmaha/myPython7am
+
+============================
+conda env list
+
+D:\Trainings\Agentic AI>conda env list
+
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                     C:\Users\sunny\anaconda3
+
+============================
+
+D:\Trainings\Agentic AI>conda activate base
+
+============================
+
+(base) D:\Trainings\Agentic AI>conda env list
+
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                 *   C:\Users\sunny\anaconda3
+
+(base) D:\Trainings\Agentic AI>
+
+============================
+C:\Users\sunny\anaconda3\envs
+
+============================
+
+(base) D:\Trainings\Agentic AI>conda create -n myproject002 python=3.11
+ 
+(base) D:\Trainings\Agentic AI>  
+============================                                                                                                  
+                                                                                                    
+(base) D:\Trainings\Agentic AI>conda env list
+
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                 *   C:\Users\sunny\anaconda3
+myproject002             C:\Users\sunny\anaconda3\envs\myproject002
+
+
+(base) D:\Trainings\Agentic AI>
+
+============================  
+
+PS D:\Trainings\Agentic AI\Python> python ./hello.py
+Hello World
+PS D:\Trainings\Agentic AI\Python> 
+
+============================  
+
+PS D:\Trainings\Agentic AI\Python> conda remove -n myproject002 --all      
+3 channel Terms of Service accepted
+
+Remove all packages in environment C:\Users\sunny\anaconda3\envs\myproject002:
+
+============================ 
+
+PS D:\Trainings\Agentic AI\Python> conda env list                    
+
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                     C:\Users\sunny\anaconda3
+
+PS D:\Trainings\Agentic AI\Python> 
+
+============================ 
+
+(myproject002) D:\Trainings\Agentic AI\Python>pip freeze
+packaging==26.0
+
+(myproject002) D:\Trainings\Agentic AI\Python>
+
+============================ 
+
+
+
+
